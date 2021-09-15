@@ -1,8 +1,8 @@
-# Your Name
+# Somin Lee
 
 ## Important Links
 
-- Add Some links https://somelink.com
+- Index https://somin.com
 - https://somelink.com
 - https://somelink.com
 
