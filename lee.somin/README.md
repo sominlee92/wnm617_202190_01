@@ -2,7 +2,7 @@
 
 ## Important Links
 
-- Index https://somin.com
+- Index https://somin-lee.com/aau/wnm617/lee.somin/index.html
 - https://somelink.com
 - https://somelink.com
 
