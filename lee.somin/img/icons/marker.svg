@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 125" style="enable-background:new 0 0 100 125;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#593525;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#D30000;}
+</style>
+<path class="st0" d="M88.3,54.6c0,17.7-38.3,60.1-38.3,60.1S11.7,72.2,11.7,54.6S22.1,14.2,50,14.2S88.3,36.9,88.3,54.6z"/>
+<g>
+	<circle class="st1" cx="50" cy="50.5" r="29.6"/>
+	<g>
+		<g>
+			
+				<rect x="56.2" y="22.8" transform="matrix(0.9495 -0.3139 0.3139 0.9495 -12.1542 20.6297)" class="st2" width="3.6" height="50.5"/>
+			
+				<rect x="16.8" y="46.3" transform="matrix(0.3138 -0.9495 0.9495 0.3138 -16.7863 72.9807)" class="st2" width="50.5" height="3.6"/>
+			<rect x="24.6" y="40.6" class="st2" width="50.9" height="3.6"/>
+			
+				<rect x="29.4" y="55.4" transform="matrix(0.8115 -0.5843 0.5843 0.8115 -23.1051 42.839)" class="st2" width="50.8" height="3.6"/>
+			
+				<rect x="43.4" y="31.7" transform="matrix(0.5833 -0.8123 0.8123 0.5833 -27.6114 60.5722)" class="st2" width="3.6" height="50.9"/>
+		</g>
+		<path class="st2" d="M50,21.8c15.8,0,28.7,12.9,28.7,28.7S65.8,79.3,50,79.3S21.3,66.4,21.3,50.5S34.2,21.8,50,21.8z M50,75.7
+			c13.9,0,25.2-11.3,25.2-25.2S63.9,25.4,50,25.4S24.8,36.7,24.8,50.5S36.1,75.7,50,75.7z"/>
+	</g>
+</g>
+</svg>

@@ -42,7 +42,7 @@ font-family: 'Scheherazade New', serif; */
 
 
 body {
-   font-family: var(--font-sans);
+   font-family: var(--font-serif);
 }
 
 
@@ -87,7 +87,9 @@ a {
 }
 
 .centered { text-align:center; }
-.small { font-size: 0.8em; }
+.small { 
+   font: 'Scheherazade New', serif;
+   font-size: 0.8em; }
 
 .padding-sm { padding:0.5em; }
 .padding-md { padding:1em; }
@@ -95,6 +97,7 @@ a {
 
 
 /* PAGE ELEMENTS */
+
 .ui-mobile .ui-page-active {
    display: flex;
    flex-direction: column;
@@ -182,7 +185,8 @@ a {
     padding: 0.5em 1em;
     outline: 0;
     background-color: transparent;
-    font: inherit;
+    font-family: 'Permanent Marker', cursive;
+
     -webkit-appearance: none;
 }
 .form .form-button,
