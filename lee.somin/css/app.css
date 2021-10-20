@@ -1,18 +1,37 @@
-:root {
-    --color-neutral-light: #ddd;
-    --color-neutral-medium: #999;
-    --color-neutral-dark: #444;
+/* CSS HEX
 
-    --color-main-light: #def2f9;
-    --color-main-medium: #40a3c4;
-    --color-main-dark: #0f4557;
+dark chocolate : #240A01
+brown : #593525
+sand : #886D5C
+
+beige : #C2BCB0
+grey : #727272
+Deep blue : #243F50
+
+*/
+
+/* font css
+font-family: 'Permanent Marker', cursive;
+font-family: 'Scheherazade New', serif; */
+
+
+
+
+:root {
+    --color-neutral-light: #C2BCB0ff;
+    --color-neutral-medium: #727272ff;
+    --color-neutral-dark: #243F50;
+
+    --color-main-light: #886D5C;
+    --color-main-medium: #43281Dff;
+    --color-main-dark: #240A01;
 
     --color-white: #fff;
     --color-black: #111;
 
 
-    --font-sans: Helvetica, Arial, sans-serif;
-    --font-serif: Cambria, Georgia, serif;
+    --font-sans: 'Permanent Marker', cursive;
+    --font-serif: 'Scheherazade New', serif;
 
     --header-height:  3rem;
 }
