@@ -43,6 +43,7 @@ font-family: 'Scheherazade New', serif; */
 
 body {
    font-family: var(--font-serif);
+
 }
 
 
@@ -383,11 +384,14 @@ a {
    font-size: 0.7rem;
 }
 .nav-icon-set li.active {
-   background-color: var(--color-main-light);
+   background-color: var(--color-neutral-light);
 }
 
 
+.main{
+      background-image: url(img/background.png);
 
+}
 
 
 /* ANIMAL LIST */
@@ -421,7 +425,9 @@ a {
    font-size: 0.9em;
 }
 
-
+.animallist-item-name {
+font: 'Permanent Marker', cursive;
+color: var(--color-neutral-dark: #243F50);
 
 
 
