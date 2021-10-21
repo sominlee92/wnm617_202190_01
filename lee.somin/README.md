@@ -3,8 +3,10 @@
 ## Important Links
 
 - Tracking App https://somin-lee.com/aau/wnm617/lee.somin/index.html
+
+
 - Profile https://somin-lee.com/aau/wnm617/lee.somin/profile/index.html
-- Initializer https://somin-lee.com/aau/wnm617/lee.somin/initializer/index.html
+- Initializer https://somin-lee.com/aau/wnm617/lee.somin/initializr/index.html
 - Jquery Demo https://somin-lee.com/aau/wnm617/lee.somin/demo/jquery.html
 
 
