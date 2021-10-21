@@ -234,6 +234,21 @@ a {
 
 
 
+.add {
+   margin-left: 2em;
+   margin-top: 2em;
+   margin-right: 2em;
+}
+
+
+#category {
+   background-color: var(--color-main-light);
+   margin: 2em;
+}
+
+.form-select {
+   border: solid 1px;
+}
 
 /* GENERIC NAV */
 .nav {
@@ -452,6 +467,15 @@ color: var(--color-neutral-dark: #243F50);
    left: 0;
    box-shadow: none;
 }
+
+
+.js-logout {
+
+   border: 2px solid var(--color-neutral-light);
+   background-color: transparent;
+
+}
+
 
 img.logo {
 
