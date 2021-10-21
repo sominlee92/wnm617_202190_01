@@ -56,7 +56,10 @@ a {
 }
 
 
-
+#page-signin,#page-signup {
+   color: var(--color-neutral-light);
+   background-color: var(--color-main-dark);
+}
 
 /* LAYOUT CLASSES */
 .hidden { display:none; }
@@ -186,6 +189,7 @@ a {
     padding: 0.5em 1em;
     outline: 0;
     background-color: transparent;
+    color: white;
     font-family: 'Permanent Marker', cursive;
 
     -webkit-appearance: none;
@@ -196,7 +200,7 @@ a {
     display: inline-block;
     border-width: 0;
     color: inherit;
-    background-color: var(--color-neutral-light);
+    background-color: var(--color-neutral-medium);
     margin: 0;
     padding: 0.5em 1em;
     border-radius: 0.3em;
@@ -222,7 +226,6 @@ a {
 
 .map {
    position: absolute;
-   top: 0;
    left: 0;
    width: 100%;
    height: 100%;
@@ -410,8 +413,8 @@ a {
     font-weight: normal;
 }
 .animallist-item-image img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     vertical-align: middle;
 }
@@ -428,6 +431,7 @@ a {
 .animallist-item-name {
 font: 'Permanent Marker', cursive;
 color: var(--color-neutral-dark: #243F50);
+}
 
 
 
@@ -449,4 +453,18 @@ color: var(--color-neutral-dark: #243F50);
    top: 0;
    left: 0;
    box-shadow: none;
+}
+
+img.logo {
+
+   margin-left: 4em;
+   margin-top: 4em;
+}
+
+/*user*/
+
+.user {
+margin-top: 2em;
+margin-left: 2em;
+margin-right: auto;
 }
