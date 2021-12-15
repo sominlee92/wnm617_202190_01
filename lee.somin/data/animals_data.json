@@ -1,0 +1,502 @@
+[[
+  {
+    "id": 1,
+    "user_id": 10,
+    "name": "Magneato",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Occaecat tempor labore aliqua velit laborum fugiat do laborum pariatur cupidatat dolor do nulla. Ea do cillum aliqua Lorem proident nulla eiusmod. Ut sint fugiat culpa quis eiusmod laboris consequat cupidatat magna incididunt irure pariatur quis eiusmod.",
+    "img": "https://via.placeholder.com/400/713/fff/?text=Magneato",
+    "date_create": "2020-12-18 02:25:12"
+  },
+  {
+    "id": 2,
+    "user_id": 6,
+    "name": "Tribalog",
+    "type": "demon",
+    "breed": "yellow eyes",
+    "description": "Culpa consequat aute enim sint sunt consequat ad laborum. Culpa voluptate elit pariatur laboris Lorem quis ea incididunt ad et eu laboris. In Lorem exercitation velit consectetur incididunt exercitation duis cupidatat qui nulla labore.",
+    "img": "https://via.placeholder.com/400/949/fff/?text=Tribalog",
+    "date_create": "2021-04-16 12:09:09"
+  },
+  {
+    "id": 3,
+    "user_id": 6,
+    "name": "Eventage",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Ea aliquip amet Lorem excepteur sunt dolore quis voluptate duis eiusmod consequat et. Nisi amet sit proident anim. Sit elit dolor est nulla laboris elit cupidatat amet.",
+    "img": "https://via.placeholder.com/400/851/fff/?text=Eventage",
+    "date_create": "2020-02-18 02:47:16"
+  },
+  {
+    "id": 4,
+    "user_id": 4,
+    "name": "Optique",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Lorem dolor id laboris nulla officia irure excepteur. Lorem enim consectetur nostrud irure nostrud laborum pariatur amet ullamco qui nulla. Mollit consequat sint culpa nostrud sint aute nulla nisi fugiat sunt minim eu ea est.",
+    "img": "https://via.placeholder.com/400/749/fff/?text=Optique",
+    "date_create": "2021-01-06 01:07:50"
+  },
+  {
+    "id": 5,
+    "user_id": 9,
+    "name": "Combogene",
+    "type": "thing",
+    "breed": "vampire",
+    "description": "Amet dolor irure consequat tempor laborum adipisicing non nulla occaecat dolor cupidatat laboris. Ad esse ex veniam enim ut esse laboris incididunt culpa aliquip eiusmod aliquip. Ut cupidatat officia amet Lorem dolor quis eiusmod ex sint ut veniam cupidatat dolore ad.",
+    "img": "https://via.placeholder.com/400/829/fff/?text=Combogene",
+    "date_create": "2020-09-02 05:11:25"
+  },
+  {
+    "id": 6,
+    "user_id": 8,
+    "name": "Pearlessa",
+    "type": "thing",
+    "breed": "skinwalker",
+    "description": "Ut sint ex labore quis officia labore enim pariatur consequat magna magna velit consequat. Velit laborum id non pariatur ex incididunt tempor voluptate. Aliqua esse ad ad consequat non ex in.",
+    "img": "https://via.placeholder.com/400/709/fff/?text=Pearlessa",
+    "date_create": "2020-11-14 04:40:37"
+  },
+  {
+    "id": 7,
+    "user_id": 7,
+    "name": "Moreganic",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Commodo laboris aute consectetur nostrud. Eu reprehenderit magna aute consequat ipsum nisi veniam excepteur consequat laborum ea quis. Mollit id officia pariatur proident cupidatat anim aliqua nulla.",
+    "img": "https://via.placeholder.com/400/925/fff/?text=Moreganic",
+    "date_create": "2020-03-11 04:14:41"
+  },
+  {
+    "id": 8,
+    "user_id": 8,
+    "name": "Isodrive",
+    "type": "thing",
+    "breed": "fairy",
+    "description": "Sint pariatur nulla eiusmod ad elit culpa aliquip reprehenderit id proident consequat fugiat. Sunt exercitation pariatur mollit exercitation duis ex exercitation sit Lorem. Ex non laboris eu nulla sunt voluptate officia exercitation consequat esse.",
+    "img": "https://via.placeholder.com/400/767/fff/?text=Isodrive",
+    "date_create": "2021-08-26 05:26:09"
+  },
+  {
+    "id": 9,
+    "user_id": 7,
+    "name": "Earthpure",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Consectetur esse duis irure consequat id veniam consectetur dolor adipisicing enim. Laborum velit excepteur tempor non sit adipisicing sit quis officia qui laborum laboris. Culpa quis pariatur ut do excepteur culpa consectetur pariatur est veniam cillum laboris commodo id.",
+    "img": "https://via.placeholder.com/400/797/fff/?text=Earthpure",
+    "date_create": "2020-11-03 08:04:38"
+  },
+  {
+    "id": 10,
+    "user_id": 4,
+    "name": "Columella",
+    "type": "demon",
+    "breed": "yellow eyes",
+    "description": "Dolor Lorem occaecat id enim officia excepteur et consectetur cillum irure. Exercitation aliqua Lorem excepteur est ea laborum ut anim id qui. Irure elit aute ex qui in ullamco ullamco non nisi.",
+    "img": "https://via.placeholder.com/400/889/fff/?text=Columella",
+    "date_create": "2020-05-17 05:27:13"
+  },
+  {
+    "id": 11,
+    "user_id": 7,
+    "name": "Kyagoro",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Commodo ipsum nisi mollit ea amet deserunt duis est anim labore anim qui voluptate. In ipsum excepteur minim qui nulla fugiat nostrud deserunt laborum velit sint. Enim aliquip commodo nulla dolor elit occaecat nostrud eiusmod qui adipisicing minim.",
+    "img": "https://via.placeholder.com/400/898/fff/?text=Kyagoro",
+    "date_create": "2020-11-09 08:55:23"
+  },
+  {
+    "id": 12,
+    "user_id": 9,
+    "name": "Digigene",
+    "type": "ghost",
+    "breed": "haunted place",
+    "description": "Pariatur fugiat esse fugiat irure magna. Reprehenderit dolore anim consequat nostrud sint. Incididunt deserunt anim velit proident nisi consectetur consectetur elit consequat dolor esse cupidatat enim qui.",
+    "img": "https://via.placeholder.com/400/811/fff/?text=Digigene",
+    "date_create": "2020-11-03 06:07:46"
+  },
+  {
+    "id": 13,
+    "user_id": 2,
+    "name": "Insurety",
+    "type": "demon",
+    "breed": "hell hounds",
+    "description": "Cillum ea minim aute deserunt labore nostrud quis anim magna veniam cillum pariatur ad cupidatat. Labore aliqua excepteur commodo duis ullamco aliquip elit. Quis ut consequat culpa adipisicing ad dolor aliqua ea.",
+    "img": "https://via.placeholder.com/400/704/fff/?text=Insurety",
+    "date_create": "2021-03-11 11:33:19"
+  },
+  {
+    "id": 14,
+    "user_id": 3,
+    "name": "Maineland",
+    "type": "thing",
+    "breed": "skinwalker",
+    "description": "Esse proident incididunt ullamco excepteur cupidatat duis. Ut magna aliquip est pariatur officia enim. Occaecat qui esse ea magna pariatur adipisicing dolor.",
+    "img": "https://via.placeholder.com/400/775/fff/?text=Maineland",
+    "date_create": "2021-07-23 03:16:11"
+  },
+  {
+    "id": 15,
+    "user_id": 4,
+    "name": "Otherway",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Consectetur cupidatat fugiat qui adipisicing aliqua ex. Reprehenderit exercitation consequat sit laborum proident minim amet cillum laboris id elit commodo. Aliquip nostrud veniam proident tempor aliquip Lorem cupidatat eiusmod.",
+    "img": "https://via.placeholder.com/400/834/fff/?text=Otherway",
+    "date_create": "2020-09-16 05:22:23"
+  },
+  {
+    "id": 16,
+    "user_id": 8,
+    "name": "Poochies",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Dolore reprehenderit dolore nostrud eu officia fugiat mollit dolor reprehenderit minim proident commodo duis. Consequat esse occaecat nostrud proident laborum quis deserunt ut consequat sunt mollit dolore. Ipsum cillum reprehenderit amet minim Lorem ex mollit do deserunt eu qui.",
+    "img": "https://via.placeholder.com/400/969/fff/?text=Poochies",
+    "date_create": "2021-12-02 09:51:48"
+  },
+  {
+    "id": 17,
+    "user_id": 9,
+    "name": "Ceprene",
+    "type": "demon",
+    "breed": "yellow eyes",
+    "description": "Officia aute reprehenderit ea magna proident pariatur do. Pariatur exercitation dolor nisi dolor laborum ex nostrud irure ut. Eu elit nostrud amet nisi ipsum ipsum aliquip tempor aute anim fugiat incididunt deserunt aliquip.",
+    "img": "https://via.placeholder.com/400/943/fff/?text=Ceprene",
+    "date_create": "2021-01-24 03:28:52"
+  },
+  {
+    "id": 18,
+    "user_id": 4,
+    "name": "Bleeko",
+    "type": "thing",
+    "breed": "fairy",
+    "description": "Ipsum fugiat in veniam anim voluptate labore esse labore sint. Nisi tempor aliquip tempor esse anim Lorem commodo laboris deserunt. Sunt eiusmod minim anim laboris incididunt qui minim ex sit officia nostrud incididunt non ullamco.",
+    "img": "https://via.placeholder.com/400/890/fff/?text=Bleeko",
+    "date_create": "2021-07-04 05:38:48"
+  },
+  {
+    "id": 19,
+    "user_id": 5,
+    "name": "Vendblend",
+    "type": "demon",
+    "breed": "yellow eyes",
+    "description": "Consectetur sit commodo occaecat eu nostrud sint qui est exercitation. Laborum tempor laboris nostrud laborum adipisicing deserunt et eu consectetur minim aliqua consectetur occaecat sint. Nisi exercitation ut quis nostrud amet pariatur consequat consequat voluptate consequat do aliquip fugiat officia.",
+    "img": "https://via.placeholder.com/400/804/fff/?text=Vendblend",
+    "date_create": "2020-10-31 03:47:13"
+  },
+  {
+    "id": 20,
+    "user_id": 3,
+    "name": "Omnigog",
+    "type": "ghost",
+    "breed": "haunted place",
+    "description": "Minim nisi irure consequat officia. Irure labore sint do eu laboris occaecat nisi. Velit eiusmod irure laboris commodo non.",
+    "img": "https://via.placeholder.com/400/946/fff/?text=Omnigog",
+    "date_create": "2020-04-15 12:46:16"
+  },
+  {
+    "id": 21,
+    "user_id": 6,
+    "name": "Quordate",
+    "type": "ghost",
+    "breed": "haunted place",
+    "description": "Proident consequat non Lorem consectetur excepteur minim cillum anim in aliquip cupidatat et. Nisi reprehenderit duis ullamco aute amet et voluptate excepteur nisi et est ad aute. Aliquip consectetur culpa pariatur dolore consectetur quis mollit voluptate et.",
+    "img": "https://via.placeholder.com/400/852/fff/?text=Quordate",
+    "date_create": "2021-01-23 12:13:40"
+  },
+  {
+    "id": 22,
+    "user_id": 4,
+    "name": "Liquidoc",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Mollit magna laborum qui consequat est reprehenderit dolor sit ea cupidatat. Proident laborum quis ut anim duis laboris cupidatat cupidatat. Deserunt aliquip ipsum in do.",
+    "img": "https://via.placeholder.com/400/740/fff/?text=Liquidoc",
+    "date_create": "2020-08-20 02:45:35"
+  },
+  {
+    "id": 23,
+    "user_id": 5,
+    "name": "Motovate",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Nostrud nostrud ea esse deserunt sit enim ex laborum aute pariatur. Excepteur officia magna ut veniam fugiat aliquip. Aute incididunt culpa non mollit.",
+    "img": "https://via.placeholder.com/400/882/fff/?text=Motovate",
+    "date_create": "2021-04-19 05:13:50"
+  },
+  {
+    "id": 24,
+    "user_id": 6,
+    "name": "Frolix",
+    "type": "demon",
+    "breed": "yellow eyes",
+    "description": "Quis duis minim qui mollit sit fugiat sint. Aliquip est culpa reprehenderit nostrud id dolore in Lorem deserunt. Occaecat cupidatat dolor culpa quis.",
+    "img": "https://via.placeholder.com/400/979/fff/?text=Frolix",
+    "date_create": "2021-03-06 05:55:43"
+  },
+  {
+    "id": 25,
+    "user_id": 2,
+    "name": "Zillacon",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Sint sit aliqua aliquip amet. Adipisicing aute sit commodo veniam eiusmod amet et. Velit Lorem aliquip adipisicing pariatur nulla ea proident.",
+    "img": "https://via.placeholder.com/400/861/fff/?text=Zillacon",
+    "date_create": "2021-02-24 11:29:38"
+  },
+  {
+    "id": 26,
+    "user_id": 2,
+    "name": "Geoforma",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Amet aliquip est sint anim exercitation ex. Irure fugiat sunt occaecat est esse incididunt ullamco enim minim aliquip fugiat magna. Id irure do velit cupidatat reprehenderit sit ipsum minim officia.",
+    "img": "https://via.placeholder.com/400/775/fff/?text=Geoforma",
+    "date_create": "2020-05-01 11:18:24"
+  },
+  {
+    "id": 27,
+    "user_id": 7,
+    "name": "Kongle",
+    "type": "ghost",
+    "breed": "haunted object",
+    "description": "Esse quis sunt occaecat cupidatat do ipsum elit. Laboris nostrud aliquip deserunt ad sit ad aliquip ut eu mollit tempor voluptate. Dolor anim consequat sint dolor anim aute in.",
+    "img": "https://via.placeholder.com/400/952/fff/?text=Kongle",
+    "date_create": "2020-06-12 06:51:16"
+  },
+  {
+    "id": 28,
+    "user_id": 6,
+    "name": "Zentry",
+    "type": "ghost",
+    "breed": "haunted object",
+    "description": "Pariatur id dolore occaecat fugiat tempor esse consectetur sit nostrud enim aliquip. Commodo cillum cillum minim duis sunt in deserunt tempor. Sunt et nisi mollit irure magna deserunt quis quis nostrud.",
+    "img": "https://via.placeholder.com/400/731/fff/?text=Zentry",
+    "date_create": "2021-04-11 03:40:40"
+  },
+  {
+    "id": 29,
+    "user_id": 2,
+    "name": "Apextri",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Nostrud excepteur ipsum aute proident id enim anim consectetur laborum laborum minim incididunt. Lorem in exercitation anim ex esse amet proident pariatur. Minim cillum esse adipisicing ullamco voluptate enim.",
+    "img": "https://via.placeholder.com/400/971/fff/?text=Apextri",
+    "date_create": "2020-01-30 01:55:10"
+  },
+  {
+    "id": 30,
+    "user_id": 6,
+    "name": "Overplex",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Esse aliqua dolor irure aliqua mollit dolor proident ea laboris veniam. Laborum id incididunt ad magna dolor nostrud est reprehenderit enim elit fugiat mollit officia est. Commodo exercitation Lorem minim labore anim mollit ea ea.",
+    "img": "https://via.placeholder.com/400/820/fff/?text=Overplex",
+    "date_create": "2020-05-21 02:26:41"
+  },
+  {
+    "id": 31,
+    "user_id": 1,
+    "name": "Bullzone",
+    "type": "ghost",
+    "breed": "haunted place",
+    "description": "Amet consectetur excepteur dolor consequat aliquip Lorem esse ipsum. Pariatur anim dolore eiusmod occaecat non dolor magna nostrud. Esse nisi deserunt veniam pariatur minim Lorem cillum veniam laborum dolore excepteur consectetur laboris.",
+    "img": "https://via.placeholder.com/400/936/fff/?text=Bullzone",
+    "date_create": "2020-11-27 07:25:54"
+  },
+  {
+    "id": 32,
+    "user_id": 9,
+    "name": "Ronbert",
+    "type": "demon",
+    "breed": "yellow eyes",
+    "description": "In reprehenderit officia irure est do elit et nulla. Magna ea Lorem sint reprehenderit nisi irure dolore et. Lorem sint ex consequat ex occaecat mollit ad.",
+    "img": "https://via.placeholder.com/400/834/fff/?text=Ronbert",
+    "date_create": "2020-03-29 08:39:58"
+  },
+  {
+    "id": 33,
+    "user_id": 9,
+    "name": "Rubadub",
+    "type": "demon",
+    "breed": "hell hounds",
+    "description": "Esse nisi commodo occaecat cillum ad ea irure sunt ex laboris commodo. Exercitation esse laboris aliqua culpa magna qui. Ad ad exercitation sint velit id occaecat ullamco pariatur minim aliquip anim.",
+    "img": "https://via.placeholder.com/400/803/fff/?text=Rubadub",
+    "date_create": "2021-07-09 05:31:10"
+  },
+  {
+    "id": 34,
+    "user_id": 10,
+    "name": "Printspan",
+    "type": "demon",
+    "breed": "hell hounds",
+    "description": "Eiusmod officia est excepteur dolor nulla ea. Aliquip tempor esse ullamco aliqua sit reprehenderit exercitation irure anim deserunt cupidatat ad aliquip. Ea est quis ullamco enim deserunt Lorem tempor deserunt elit non incididunt.",
+    "img": "https://via.placeholder.com/400/987/fff/?text=Printspan",
+    "date_create": "2021-04-24 12:28:49"
+  },
+  {
+    "id": 35,
+    "user_id": 7,
+    "name": "Unq",
+    "type": "demon",
+    "breed": "hell hounds",
+    "description": "Ea Lorem est culpa exercitation occaecat. Excepteur dolore in eiusmod magna sit Lorem laborum aliquip. Labore minim sint anim nisi ad amet excepteur proident fugiat quis cupidatat.",
+    "img": "https://via.placeholder.com/400/806/fff/?text=Unq",
+    "date_create": "2020-06-22 11:11:27"
+  },
+  {
+    "id": 36,
+    "user_id": 8,
+    "name": "Norali",
+    "type": "ghost",
+    "breed": "haunted place",
+    "description": "In eiusmod anim consequat ad enim nisi. Proident fugiat exercitation eiusmod do nisi et minim in ex. Proident ipsum enim consequat labore.",
+    "img": "https://via.placeholder.com/400/848/fff/?text=Norali",
+    "date_create": "2020-01-11 01:37:48"
+  },
+  {
+    "id": 37,
+    "user_id": 5,
+    "name": "Opticall",
+    "type": "thing",
+    "breed": "skinwalker",
+    "description": "Proident reprehenderit eiusmod in sunt culpa. Et ex exercitation aliquip Lorem mollit amet elit anim veniam sunt. Cillum tempor do duis pariatur sit consequat duis sunt.",
+    "img": "https://via.placeholder.com/400/937/fff/?text=Opticall",
+    "date_create": "2020-03-17 08:26:01"
+  },
+  {
+    "id": 38,
+    "user_id": 2,
+    "name": "Organica",
+    "type": "thing",
+    "breed": "fairy",
+    "description": "Magna quis occaecat velit velit consectetur fugiat est laborum quis nostrud. Dolor esse exercitation aute ut proident nisi. Ad nulla ex velit veniam incididunt duis enim anim officia do.",
+    "img": "https://via.placeholder.com/400/707/fff/?text=Organica",
+    "date_create": "2021-11-07 11:48:34"
+  },
+  {
+    "id": 39,
+    "user_id": 7,
+    "name": "Exotechno",
+    "type": "ghost",
+    "breed": "haunted place",
+    "description": "Enim consequat exercitation culpa laboris pariatur incididunt ad Lorem nulla velit proident do. Irure exercitation duis enim aliqua anim sint excepteur cupidatat anim irure elit consectetur. Cupidatat sint voluptate adipisicing ex consectetur nisi consectetur minim sunt cupidatat officia in tempor deserunt.",
+    "img": "https://via.placeholder.com/400/785/fff/?text=Exotechno",
+    "date_create": "2020-08-28 01:06:13"
+  },
+  {
+    "id": 40,
+    "user_id": 1,
+    "name": "Xelegyl",
+    "type": "thing",
+    "breed": "vampire",
+    "description": "Sunt exercitation voluptate incididunt Lorem enim. Lorem exercitation officia sit in consequat velit proident officia aliqua culpa in. Nostrud adipisicing pariatur duis officia dolore ea excepteur ipsum culpa aliqua ea.",
+    "img": "https://via.placeholder.com/400/877/fff/?text=Xelegyl",
+    "date_create": "2021-10-08 05:43:01"
+  },
+  {
+    "id": 41,
+    "user_id": 1,
+    "name": "Centree",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Do ipsum in Lorem ad fugiat non consequat. Anim qui eiusmod ea duis dolor sint. Veniam qui sint non quis sit id excepteur exercitation veniam et sunt reprehenderit.",
+    "img": "https://via.placeholder.com/400/787/fff/?text=Centree",
+    "date_create": "2021-07-03 02:39:56"
+  },
+  {
+    "id": 42,
+    "user_id": 8,
+    "name": "Zinca",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Duis qui nostrud in consequat velit. Amet laborum sit culpa laboris laboris adipisicing non tempor ullamco. Mollit id voluptate voluptate nulla est.",
+    "img": "https://via.placeholder.com/400/928/fff/?text=Zinca",
+    "date_create": "2020-05-23 12:08:57"
+  },
+  {
+    "id": 43,
+    "user_id": 9,
+    "name": "Apexia",
+    "type": "thing",
+    "breed": "skinwalker",
+    "description": "Tempor esse pariatur laboris excepteur ullamco. Laboris do exercitation nulla cupidatat. Nisi commodo ipsum commodo enim.",
+    "img": "https://via.placeholder.com/400/741/fff/?text=Apexia",
+    "date_create": "2020-12-13 04:28:40"
+  },
+  {
+    "id": 44,
+    "user_id": 8,
+    "name": "Momentia",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Tempor veniam anim mollit mollit non in ipsum dolor adipisicing aliquip. Lorem fugiat nulla elit labore cupidatat elit in aliqua duis exercitation. Elit mollit id sunt anim ut voluptate dolore velit ex pariatur nostrud nisi esse aliquip.",
+    "img": "https://via.placeholder.com/400/705/fff/?text=Momentia",
+    "date_create": "2021-09-02 11:55:39"
+  },
+  {
+    "id": 45,
+    "user_id": 6,
+    "name": "Sustenza",
+    "type": "demon",
+    "breed": "black eyes",
+    "description": "Lorem cillum laborum eu tempor ad sunt ut nostrud dolore. Cillum anim esse velit anim. Incididunt do aliquip adipisicing reprehenderit labore ea.",
+    "img": "https://via.placeholder.com/400/924/fff/?text=Sustenza",
+    "date_create": "2021-11-26 10:30:46"
+  },
+  {
+    "id": 46,
+    "user_id": 8,
+    "name": "Playce",
+    "type": "thing",
+    "breed": "vampire",
+    "description": "Non sit laborum laborum Lorem et labore Lorem consequat nulla. Nulla mollit mollit aliquip aute enim nisi aliquip. Amet quis elit proident id et nostrud excepteur esse eiusmod veniam dolor.",
+    "img": "https://via.placeholder.com/400/776/fff/?text=Playce",
+    "date_create": "2020-10-29 06:20:55"
+  },
+  {
+    "id": 47,
+    "user_id": 9,
+    "name": "Neptide",
+    "type": "ghost",
+    "breed": "haunted object",
+    "description": "Ex adipisicing ut tempor pariatur ea laboris officia elit non est commodo. Deserunt Lorem labore nisi id fugiat voluptate sit consectetur eu. Velit enim sit nisi sit ad labore minim Lorem qui ipsum exercitation.",
+    "img": "https://via.placeholder.com/400/854/fff/?text=Neptide",
+    "date_create": "2020-04-29 12:55:49"
+  },
+  {
+    "id": 48,
+    "user_id": 9,
+    "name": "Musanpoly",
+    "type": "thing",
+    "breed": "fairy",
+    "description": "Esse exercitation sint sunt nisi proident laboris elit mollit deserunt nisi duis. Irure sit labore qui mollit non excepteur amet ullamco tempor officia mollit. Voluptate nulla duis cupidatat in voluptate ea enim qui esse voluptate.",
+    "img": "https://via.placeholder.com/400/745/fff/?text=Musanpoly",
+    "date_create": "2020-08-04 04:15:38"
+  },
+  {
+    "id": 49,
+    "user_id": 9,
+    "name": "Emtrak",
+    "type": "ghost",
+    "breed": "spirit",
+    "description": "Quis irure ea Lorem mollit magna. Est sint adipisicing reprehenderit consectetur officia anim. Dolor voluptate sint irure sunt veniam eu commodo ea aliqua quis.",
+    "img": "https://via.placeholder.com/400/784/fff/?text=Emtrak",
+    "date_create": "2021-06-30 08:13:01"
+  },
+  {
+    "id": 50,
+    "user_id": 9,
+    "name": "Quarex",
+    "type": "demon",
+    "breed": "hell hounds",
+    "description": "Tempor duis nostrud amet fugiat eiusmod non. Magna aliquip occaecat est sunt qui reprehenderit deserunt. Dolore commodo non amet aliqua in aute id Lorem mollit officia velit.",
+    "img": "https://via.placeholder.com/400/702/fff/?text=Quarex",
+    "date_create": "2020-01-20 10:07:10"
+  }
+]

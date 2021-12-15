@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Francis Kennedy",
+    "username": "user1",
+    "email": "user1@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/878/fff/?text=user1",
+    "date_create": "2020-09-08 03:01:57"
+  },
+  {
+    "id": 2,
+    "name": "Beatriz Crawford",
+    "username": "user2",
+    "email": "user2@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/902/fff/?text=user2",
+    "date_create": "2020-11-20 10:00:05"
+  },
+  {
+    "id": 3,
+    "name": "Ford Avila",
+    "username": "user3",
+    "email": "user3@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/979/fff/?text=user3",
+    "date_create": "2021-05-04 03:47:07"
+  },
+  {
+    "id": 4,
+    "name": "Inez Ingram",
+    "username": "user4",
+    "email": "user4@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/960/fff/?text=user4",
+    "date_create": "2021-04-29 01:00:16"
+  },
+  {
+    "id": 5,
+    "name": "Loraine Fields",
+    "username": "user5",
+    "email": "user5@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/846/fff/?text=user5",
+    "date_create": "2021-02-10 12:46:21"
+  },
+  {
+    "id": 6,
+    "name": "Jeri Lynn",
+    "username": "user6",
+    "email": "user6@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/872/fff/?text=user6",
+    "date_create": "2021-02-20 03:30:32"
+  },
+  {
+    "id": 7,
+    "name": "Huber Riggs",
+    "username": "user7",
+    "email": "user7@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/830/fff/?text=user7",
+    "date_create": "2020-08-05 09:49:02"
+  },
+  {
+    "id": 8,
+    "name": "Jodi Dyer",
+    "username": "user8",
+    "email": "user8@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/726/fff/?text=user8",
+    "date_create": "2021-03-20 08:31:30"
+  },
+  {
+    "id": 9,
+    "name": "Kramer Black",
+    "username": "user9",
+    "email": "user9@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/762/fff/?text=user9",
+    "date_create": "2021-11-11 12:34:03"
+  },
+  {
+    "id": 10,
+    "name": "Booker Cameron",
+    "username": "user10",
+    "email": "user10@gmail.com",
+    "password": "md5(pass)",
+    "img": "https://via.placeholder.com/400/750/fff/?text=user10",
+    "date_create": "2020-05-20 01:55:04"
+  }
+]
