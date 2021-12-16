@@ -45,6 +45,8 @@ function makeQuery($c,$ps,$p,$makeResults=true) {
    }
 }
 
+
+
 function makeUpload($file,$folder) {
    $filename = microtime(true) . "_" . $_FILES[$file]['name'];
 
@@ -61,21 +63,19 @@ function makeUpload($file,$folder) {
 
 
 
-
-
 function makeStatement($data) {
    try{
       $c = makeConn();
-      $t = $data->type;
-      $p = $data->params;
+      $t = @$data->type;
+      $p = @$data->params;
 
       switch($t) {
          // case "users_all":
-         //    return makeQuery($c,"SELECT * FROM `track_users`",$p);
+         //    return makeQuery($c,"SELECT * FROM `track_202190_users`",$p);
          // case "animals_all":
-         //    return makeQuery($c,"SELECT * FROM `track_animals`",$p);
+         //    return makeQuery($c,"SELECT * FROM `track_202190_animals`",$p);
          // case "locations_all":
-         //    return makeQuery($c,"SELECT * FROM `track_locations`",$p);
+         //    return makeQuery($c,"SELECT * FROM `track_202190_locations`",$p);
 
          // CRUD 
 
@@ -95,9 +95,9 @@ function makeStatement($data) {
 
 
          case "check_signin":
-            return makeQuery($c,"SELECT id FROM `track_202190_users` WHERE `username`=? AND `password`=md5(?)",$p); 
+            return makeQuery($c,"SELECT id FROM `track_202190_users` WHERE `username`=? AND `password`=md5(?)",$p);
 
-         case "map_animal_locations":
+         case "recent_animal_locations":
             return makeQuery($c,"SELECT *
                FROM `track_202190_animals` a
                JOIN (
@@ -116,7 +116,7 @@ function makeStatement($data) {
                ORDER BY l.animal_id, l.date_create DESC
                ",$p);
 
-         
+
 
          case "search_animals":
             $p = ["%$p[0]%",$p[1]];
@@ -137,11 +137,10 @@ function makeStatement($data) {
 
 
 
-
          /* CREATE */
 
          case "insert_user":
-            $r = makeQuery($c,"SELECT id FROM `track_202190_users` WHERE `username`=? OR `email` = ?",$p);
+            $r = makeQuery($c,"SELECT id FROM `track_202190_users` WHERE `username`=? OR `email` = ?",[$p[0],$p[1]]);
             if(count($r['result'])) return ["error"=>"Username or Email already exists"];
 
             $r = makeQuery($c,"INSERT INTO
@@ -150,7 +149,8 @@ function makeStatement($data) {
                VALUES
                (?, ?, md5(?), 'http://via.placeholder.com/400/?text=USER', NOW())
                ",$p,false);
-            return ["id" => $c->lastInsertId()];
+            $r['id'] = $c->lastInsertId();
+            return $r;
 
          case "insert_animal":
             $r = makeQuery($c,"INSERT INTO
@@ -159,7 +159,8 @@ function makeStatement($data) {
                VALUES
                (?, ?, ?, ?, ?, 'http://via.placeholder.com/400/?text=ANIMAL', NOW())
                ",$p,false);
-            return ["id" => $c->lastInsertId()];
+            $r['id'] = $c->lastInsertId();
+            return $r;
 
          case "insert_location":
             $r = makeQuery($c,"INSERT INTO
@@ -168,10 +169,22 @@ function makeStatement($data) {
                VALUES
                (?, ?, ?, ?, 'http://via.placeholder.com/400/?text=PHOTO', 'http://via.placeholder.com/400/?text=ICON', NOW())
                ",$p,false);
-            return ["id" => $c->lastInsertId()];
+            $r['id'] = $c->lastInsertId();
+            return $r;
 
 
          /* UPDATE */
+
+         case "update_user_onboard":
+            $r = makeQuery($c,"UPDATE
+               `track_202190_users`
+               SET
+                  `name` = ?,
+                  `img` = ?
+               WHERE `id` = ?
+               ",$p,false);
+            return $r;
+
          case "update_user":
             $r = makeQuery($c,"UPDATE
                `track_202190_users`
@@ -181,7 +194,7 @@ function makeStatement($data) {
                   `email` = ?
                WHERE `id` = ?
                ",$p,false);
-            return ["result" => "success"];
+            return $r;
 
          case "update_user_password":
             $r = makeQuery($c,"UPDATE
@@ -190,7 +203,7 @@ function makeStatement($data) {
                   `password` = md5(?)
                WHERE `id` = ?
                ",$p,false);
-            return ["result" => "success"];
+            return $r;
 
          case "update_user_image":
             $r = makeQuery($c,"UPDATE
@@ -198,7 +211,7 @@ function makeStatement($data) {
                SET `img` = ?
                WHERE `id` = ?
                ",$p,false);
-            return ["result" => "success"];
+            return $r;
 
          case "update_animal":
             $r = makeQuery($c,"UPDATE
@@ -210,7 +223,7 @@ function makeStatement($data) {
                   `description` = ?
                WHERE `id` = ?
                ",$p,false);
-            return ["result" => "success"];
+            return $r;
 
          case "update_animal_image":
             $r = makeQuery($c,"UPDATE
@@ -218,7 +231,7 @@ function makeStatement($data) {
                SET `img` = ?
                WHERE `id` = ?
                ",$p,false);
-            return ["result" => "success"];
+            return $r;
 
          case "update_location":
             $r = makeQuery($c,"UPDATE
@@ -227,17 +240,17 @@ function makeStatement($data) {
                   `description` = ?
                WHERE `id` = ?
                ",$p,false);
-            return ["result" => "success"];
+            return $r;
 
 
-            /* DELETE */
+         /* DELETE */
          case "delete_animal":
             $r = makeQuery($c,"DELETE FROM `track_202190_animals` WHERE `id` = ?",$p,false);
-            return ["result" => "success"];
+            return $r;
 
          case "delete_location":
             $r = makeQuery($c,"DELETE FROM `track_202190_locations` WHERE `id` = ?",$p,false);
-            return ["result" => "success"];
+            return $r;
 
 
          default: return ["error"=>"No Matched Type"];
@@ -251,7 +264,6 @@ if(!empty($_FILES)) {
    $r = makeUpload("image","../uploads/");
    die(json_encode($r));
 }
-
 
 $data = json_decode(file_get_contents("php://input"));
 

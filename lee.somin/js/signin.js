@@ -14,7 +14,7 @@ const checkSigninForm = async() => {
    });
    console.log(found_user);
 
-   if(found_user.result.length > 0) {
+   if(found_user.result.length >0) {
       // logged in
       sessionStorage.userId = found_user.result[0].id;
       $("#signin-form")[0].reset();
